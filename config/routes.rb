@@ -5,4 +5,6 @@ Rails.application.routes.draw do
  
  get 'contact', to: 'pages#contact'
  get 'shedule', to: 'pages#shedule'
+ 
+ resources :contacts
 end
