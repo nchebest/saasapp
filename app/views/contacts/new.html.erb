@@ -3,7 +3,10 @@
 		<h3 class="text-center">Contact Us</h3>
 		
 		<div class="col-md-4 col-md-offset-4">
-			<%= flash[:error] %>
+			<% flash.each do |key, value| %>
+				<%= content_tag :div, value, class: "alert alert-#{key}" %>
+			<% end %>
+			
 			<div class="well">
 				<%= form_for @contact do |f| %>
 				<div class="form-group">
