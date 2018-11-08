@@ -90,8 +90,6 @@ GEM
       mini_portile2 (~> 2.3.0)
     pg (0.18.4)
     puma (3.4.0)
-    puma-heroku (1.0.0)
-      puma (~> 3.0)
     rack (2.0.6)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -177,7 +175,6 @@ DEPENDENCIES
   listen (= 3.0.5)
   pg (= 0.18.4)
   puma (= 3.4.0)
-  puma-heroku (= 1.0)
   rails (= 5.0.0)
   sass-rails (= 5.0.6)
   spring
@@ -187,6 +184,9 @@ DEPENDENCIES
   tzinfo-data
   uglifier (= 3.0.0)
   web-console
+
+RUBY VERSION
+   ruby 2.4.5p335
 
 BUNDLED WITH
    1.17.1
