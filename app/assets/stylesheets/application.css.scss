@@ -27,13 +27,6 @@
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.home-callout {
-    color: white;
-    margin-top: -20px;
-    padding-top: 80px;
-    padding-bottom: 200px;
-   
-}
 .navbar {
   border: none;
 }
@@ -66,4 +59,14 @@
 // Disabled Devise alert message
 .alert-notice {
     display:none;
+}
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+   
+}
+.home-signup-links {
+    margin-top: 30px;
 }
