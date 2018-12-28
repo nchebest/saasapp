@@ -39,7 +39,7 @@ gem 'devise', '4.2.0'
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
 
-# Use figaro for ENV vairable
+# Use figaro for ENV vairable (To hide secret keys)
 gem 'figaro', '1.1.1'
 
 
