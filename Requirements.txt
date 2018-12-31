@@ -7,9 +7,21 @@ Memberships Requirements
 Stripe Integration
 * Users should have a stripe customer token in users table
 * Javascript should prevent Pro form from submitting after user fills it out, 
-and should send card Info to Stripe. Stipe will return with a card token
+* and should send card Info to Stripe. Stipe will return with a card token
 * Javascript should send user fileds and card token to our rails app.
-Rails app should validate the user fileds. Rails app will note whether they are plan 1 or plan 2
+* Rails app should validate the user fileds. Rails app will note whether they are plan 1 or plan 2
 * Once validated, Rails should send user info (Email and plan id) and card token 
-to Stripe server and Stripe will create a subscription and send back customer token. 
-Rails should save customer token and user information to our database
+* to Stripe server and Stripe will create a subscription and send back customer token. 
+* Rails should save customer token and user information to our database
+
+User Profiles
+* Each user should have one profile
+* User should see link to new profile form upon signing Up
+* User should be able to create and view their profile 
+* User profile should have a profile picture
+* User should be able to view all user profiles
+
+
+
+
+
