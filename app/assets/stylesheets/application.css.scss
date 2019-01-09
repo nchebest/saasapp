@@ -19,6 +19,9 @@
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
  
+ /* add custom stylesheets here*/
+ @import "users";
+ 
 
 .navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
@@ -77,3 +80,4 @@
 .home-signup-links {
     margin-top: 30px;
 }
+
